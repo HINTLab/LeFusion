@@ -172,6 +172,9 @@ chmod +x diffmask_inference.sh
 ./diffmask_inference.sh
 ```
 
+When you train DiffMask yourself, results around 6,000–7,000 steps generally produce good outcomes. In addition, by default we save the weights every 1,000 steps.
+
+
 Infernce:
 
 ```bash
