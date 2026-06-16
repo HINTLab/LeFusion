@@ -6,6 +6,16 @@ LeFusion has been accepted by [ICLR'25](https://openreview.net/forum?id=3b9SKkRA
 
 The top illustrates the training process of LeFusion, while the bottom shows the inference. During training, LeFusion avoids learning unnecessary background generation using a lesion-focused loss. In inference, by combining forward-diffused real backgrounds with reverse-diffused generated foregrounds, LeFusion ensures high-quality background generation. Additionally, we introduce histogram-based texture control to handle multi-peak lesions and multi-channel decomposition for multi-class lesions. ([arXiv](https://arxiv.org/abs/2403.14066))
 
+## 📰 Follow-up Work
+
+<div align="center">
+    <b>GenMed: A Pairwise Generative Reformulation of Medical Diagnostic Tasks</b><br />
+    A broader generative framework for robust medical inference across segmentation, degraded-input settings, few-shot and cross-modality transfer, and 3D shape completion.<br />
+    <br />
+    <a href="https://kanydao.github.io/GenMed/"><img src="https://img.shields.io/badge/Project-Page-Green" alt="project page"></a>
+    <a href="https://arxiv.org/abs/2605.10645"><img src="https://img.shields.io/badge/Paper-arXiv-red" alt="paper"></a>
+    <a href="https://github.com/kanydao/GenMed"><img src="https://img.shields.io/badge/Code-GitHub-blue" alt="code"></a>
+</div>
 
 ## :bookmark_tabs:Data Preparation
 
